@@ -1,0 +1,38 @@
+.container {
+  padding: 20px;
+}
+
+.table-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card {
+  margin-bottom: 10px;
+}
+/* Custom styles for the Project Details tab */
+.project-details-tab {
+  border: 1px solid #94c2c2;
+  background-color: #e9f5ff;
+  border-radius: 0.25rem;
+}
+
+.project-details-tab .card-header {
+  background-color: #d0f2f3;
+  color: white;
+}
+
+.project-details-tab .card-header .accordion-button {
+  color: white;
+  background-color: #d0f2f3;
+}
+
+.data-grid-container {
+  border: 1px solid #ddd;
+  overflow: auto;
+}

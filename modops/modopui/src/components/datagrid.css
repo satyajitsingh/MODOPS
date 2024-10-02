@@ -1,0 +1,36 @@
+.data-grid-container {
+  height: 400px;
+  overflow: auto;
+  position: relative;
+}
+
+.data-grid-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.data-grid-table thead th {
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 0;
+  background: #f4f4f4;
+  z-index: 10;
+  border-bottom: 2px solid #ddd;
+}
+
+.data-grid-table th, .data-grid-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.data-grid-table .sticky-col {
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  left: 0;
+  background: #fff;
+  z-index: 9;
+}
+
+.data-grid-table td.sticky-col {
+  background: #f4f4f4; /* Same as header background for consistency */
+}

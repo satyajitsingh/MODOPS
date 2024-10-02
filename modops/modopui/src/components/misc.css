@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700');
+
+
+.multiselect {
+    width: 200px;
+  }
+  
+  .selectBox {
+    position: relative;
+  }
+  
+  .selectBox select {
+    width: 100%;
+    font-weight: bold;
+  }
+  
+  .overSelect {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  
+  .formlabel {
+    color: #855e45;
+    font-weight: bold;
+    width: 80px;
+    float: left;
+    font-family: "nta", Arial, sans-serif;
+    font-weight: 400;
+    text-transform: none;
+    font-size: 16px;
+    line-height: 1.25;
+  
+  }
+
+  
+
+  .submitbutton {
+    background-color:#151558;
+    color: #fff;
+    border:none; 
+    border-radius:10px; 
+    padding:15px;
+    min-height:30px; 
+    min-width: 120px;
+  }
+
+  .submitbutton:hover {
+    background-color:#58b8cb;
+    transition: 0.7s;
+}
+
+.center {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+p,
+label {
+  font:
+    1rem 'Fira Sans',
+    sans-serif;
+}
+
+.title 
+  {
+    font-family: 'HelveticaNeue-CondensedBold', 'Arial', 'Tahoma', sans-serif;
+    font-size: 18pt;
+    font-weight: 500;
+
+    color: #ffffff;
+  }
+
+  .subtitle 
+  {
+    font-family: 'HelveticaNeue-CondensedBold', 'Arial', 'Tahoma', sans-serif;
+    font-size: 14pt;
+    font-weight: 500;
+    color: #ffffff;
+  }
+
+
+input {
+  margin: 0.4rem;
+}
+.nobullet{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sectiontitle{
+  background-color:#e5ead9a5;
+  
+}
+.sectiontext{
+  font-family: 'Helvetica', 'Arial', 'Tahoma', sans-serif;
+  font-size: 19px;
+  font-size: 1.1875rem;
+  font-weight: bold;
+}
+.content{
+  background-color:#fcf0ef;
+  padding: 5px 10px;
+  font-family: 'Helvetica', 'Arial', 'Tahoma', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  overflow-x:auto
+}
+
+.divtable{
+  height: 350px;
+  overflow: auto;
+  border : 2px solid rgb(139, 200, 199);
+  
+}
+.divtable2{
+  position:relative;
+  height: 250px;
+  width: ;
+  border : 2px solid rgb(121, 113, 77);
+  overflow: auto;
+  
+}
+
+.divbackground{
+    background-color: #13284C
+}
+
+.divcenter{
+    width:800px; 
+    margin:0 auto;
+}
+
+.confluenceTable{
+  font-family: 'Helvetica', 'Arial', 'Tahoma', sans-serif;
+  border-collapse: collapse;
+  width:100%;
+
+}
+.confluencetr {
+  width: auto;
+  }
+
+.confluenceTable td {
+  border: 1px solid #ddd;
+  padding: 5px;
+ 
+  }
+
+  .container img {
+    width: 100%; /* or any custom size */
+    height: 100%; 
+    object-fit: contain;
+  /* or
+    object-fit: cover; */
+  } 
+  .container2 img {
+    width: 100px;
+    height: 80px;
+    object-fit: contain;
+
+  /* or
+    object-fit: cover; */
+  } 
+  
+
+  .confluenceTable tr:first-child th:first-child {
+    border-top-left-radius:3px;
+    border-left: 0;
+  }
+  
+.confluenceTd tbody>td:first-child{
+  position: sticky;
+  left: 0;
+  z-index: 2;
+}
+.confluenceTable tr:nth-child(odd){background-color:#e7f5fe;}
+.confluenceTable tr:hover {background-image: linear-gradient(.0deg, #1E3F6B 10%,#fff 5%, #D9E1E8 85%) ;}
+
+.container {
+  padding: 20px;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left; /* Align text to the left */
+  vertical-align: top; /* Align text to the top */
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+
+
+td {
+  max-width: 300px; /* Adjust as necessary */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Add ellipsis for overflow text */
+}
+
+tr:hover {
+  background-color: #c5ebf3;
+}
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.pagination button {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.table-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}

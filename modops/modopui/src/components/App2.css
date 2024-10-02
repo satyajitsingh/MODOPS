@@ -1,0 +1,21 @@
+/* Styles for the parent card */
+.parent-card {
+    cursor: pointer;
+    background-color: #f5f5f5;
+    border: 1px solid #007bff;
+  }
+  
+  .parent-card:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Additional styling for the child details section */
+  .card-body {
+    background-color: #ffffff;
+    border-top: 1px solid #007bff;
+  }
+  
+  .table-title {
+    margin-bottom: 20px;
+  }
+  
