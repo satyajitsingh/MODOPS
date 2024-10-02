@@ -1,6 +1,9 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). The project s uses an accordion to display MOD and defence opportunities.
+
+## TODO
+Replace CPV code with Taxonomy Terms.
 
 ## Available Scripts
 
